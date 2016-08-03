@@ -1,0 +1,15 @@
+amazon:
+  associateId: habuma-20
+
+logging:
+  level:
+    root: INFO
+
+---
+
+spring:
+  profiles: development
+
+logging:
+  level:
+    root: DEBUG

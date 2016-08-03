@@ -1,0 +1,33 @@
+error:
+  whitelabel:
+    enabled: false
+
+amazon:
+  associateId: habuma-20
+
+logging:
+  level:
+    root: INFO
+
+endpoints:
+  shutdown:
+    enabled: true
+#    id: kill
+
+info:
+#  contactEmail: support@myreadinglist.com
+  contact:
+    email: support@myreadinglist.com
+    phone: 1-888-555-1971
+
+management:
+  context-path: /mgmt
+
+---
+
+spring:
+  profiles: development
+
+logging:
+  level:
+    root: DEBUG
